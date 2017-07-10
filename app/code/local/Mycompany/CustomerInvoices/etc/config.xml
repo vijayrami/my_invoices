@@ -19,9 +19,9 @@
 
         <layout>
             <updates>
-                <vasiliib>
+                <getinvoices>
                     <file>mycustomerinvoices.xml</file>
-                </vasiliib>
+                </getinvoices>
             </updates>
         </layout>
     </frontend>
