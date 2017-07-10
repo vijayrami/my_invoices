@@ -34,7 +34,7 @@
 	                    <?php echo $invoice->getOrder()->getCreatedAt(); ?>
 	                </td>
 	                <td>
-	                    <a href="<?php echo $this->getUrl('mycompany/customerInvoice/view',
+	                    <a href="<?php echo $this->getUrl('getinvoices/customerInvoice/view',
 	                            array('order_id' => $invoice->getOrder()->getId())); ?>">
 	                        <i class="fa fa-file-pdf-o"></i>
 	                        <?php echo $this->__('Create PDF'); ?>
